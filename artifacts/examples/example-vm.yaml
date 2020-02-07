@@ -1,0 +1,9 @@
+apiVersion: samplecontroller.k8s.io/v1alpha1
+kind: Vm
+metadata:
+  name: sample
+spec:
+  vmname: vmsample
+status:
+  vmId: XXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXX
+  cpuUtilization: 50

@@ -1,2 +1,7 @@
 # vm_controller
-HA Controller that manage off k8s cluster VMs
+
+This repository implement a HA controller for watching off-cluster VM resources as defined with a CustomResourceDefinition (CRD).
+
+# referrence
+
+The architecture of this controller is referred to https://github.com/kubernetes/sample-controller.
